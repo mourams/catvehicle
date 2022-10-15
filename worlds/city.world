@@ -126,7 +126,7 @@
     </model>
 
 
-    <!-- Environment 
+    <!-- Environment -->
     <include>
       <name>city_terrain_1</name>
       <pose>
@@ -137,7 +137,7 @@
       0
       0
       </pose>
-      <uri>/home/ece446/catvehicle_ws/src/citysim/models/city_terrain</uri>
+      <uri>model://city_terrain</uri>
     </include>
 
     <include>
@@ -150,10 +150,8 @@
       0
       0
       </pose>
-      <uri>/home/ece446/catvehicle_ws/src/citysim/models/ocean</uri>
+      <uri>model://ocean</uri>
     </include>
-
--->
     
 
     <road name="road_y_1">
